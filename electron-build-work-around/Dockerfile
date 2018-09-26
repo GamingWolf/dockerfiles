@@ -1,3 +1,4 @@
+#USAGE: Build the docker image with "docker build -t name_you_want ." and run it as follows "docker run -it -w /work/ -v PATH/TO/REPO:/work name_you_want".
 FROM debian:stretch
 
 # This is the same as pulling buildpack-deps:stretch-curl
